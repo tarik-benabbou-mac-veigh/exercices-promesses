@@ -79,7 +79,7 @@ function age(eleveAge){
     return new Promise((resolve, reject) => {
         setTimeout(()=>{
             if(eleveAge >= 18){
-                resolve(`Vous pouvez passez votre permis de conduire.`);
+                resolve(`Vous pouvez passer votre permis de conduire.`);
             }
             else{
                 reject(`Vous devez attendre d'avoir 18 ans.`);
